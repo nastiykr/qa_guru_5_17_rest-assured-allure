@@ -3,14 +3,12 @@ package tests;
 import com.codeborne.selenide.Configuration;
 import io.restassured.RestAssured;
 import models.AddToCardResponse;
-import models.AuthorizationResponse;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static filters.CustomLogsFilter.customLogFilter;
 import static io.restassured.RestAssured.given;
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.hamcrest.Matchers.is;
 
 public class CardTests {
 
